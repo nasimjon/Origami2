@@ -1,0 +1,22 @@
+.makeCenter {
+    display: flex;
+    justify-content: space-evenly;
+}
+.makeCenter img{
+    border: solid;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;font-weight: 400;
+    color: white;
+}
+.menu h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
